@@ -6,7 +6,7 @@ let gameArea = document.querySelector('.gameArea');
 
 startScreen.addEventListener('click', start);
 
-let player = { speed: 12, score: 0 };
+let player = { speed: 8, score: 0 };
 
 let keys = {
     ArrowUp: false,
